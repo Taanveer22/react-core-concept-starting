@@ -1,0 +1,13 @@
+.student-style{
+  border : 2px solid red;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.pupil-style {
+  border : 2px solid tomato;
+  padding: 10px;
+  margin : 10px;
+  border-radius: 10px;
+}
