@@ -1,4 +1,11 @@
 import "./App.css";
+import Todo from "./Todo";
+import Todo1 from "./Todo1";
+import Todo2 from "./Todo2";
+import Todo3 from "./Todo3";
+import Todo4 from "./Todo4";
+import Todo5 from "./Todo5";
+import Todo6 from "./Todo6";
 function App() {
   return (
     <>
@@ -14,6 +21,15 @@ function App() {
       <Pupil></Pupil>
       <Pupil grade="A" score="88"></Pupil>
       <Pupil grade="B" score="77"></Pupil>
+      <Todo task="learn react"></Todo>
+      <Todo task="learn core concept"></Todo>
+      <Todo task="learn jsx sytax"></Todo>
+      <Todo1 work="rendering system 1" isDone={true}></Todo1>
+      <Todo2 work="rendering system 2" isDone={true}></Todo2>
+      <Todo3 work="rendering system 3" isDone={false}></Todo3>
+      <Todo4 work="rendering system 4" isDone={true}></Todo4>
+      <Todo5 work="rendering system 5" isDone={false}></Todo5>
+      <Todo6 work="rendering system 6" isDone={true}></Todo6>
     </>
   );
 }
@@ -65,7 +81,7 @@ function Developer() {
 
 // Device function
 function Device(props) {
-  console.log(props);
+  // console.log(props);
 
   return (
     <h5
@@ -83,7 +99,7 @@ function Device(props) {
 
 // Pupil Function
 function Pupil({ grade = "F", score = "0" }) {
-  console.log(grade, score);
+  // console.log(grade, score);
   return (
     <div className="pupil-style">
       <h5>He is a Pupil</h5>
